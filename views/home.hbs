@@ -1,0 +1,33 @@
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <b>Event Name</b>
+            </div>
+            <div class="col">
+                <b>Description</b>
+            </div>
+            <div class="col">
+                <b>Location</b>
+            </div>
+        </div>
+</div>
+{{#events}}
+    {{!-- <li>
+        <h2>{{ title }}</h2>
+        <p>{{ description }}</p>
+        <p>{{ location }}</p>
+    </li> --}}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {{ title }}
+            </div>
+            <div class="col">
+                {{ description }}
+            </div>
+            <div class="col">
+                {{ location }}
+            </div>
+        </div>
+    </div>
+{{/events}}
